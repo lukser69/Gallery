@@ -1,4 +1,4 @@
-import { IImageFromServer } from './modelsImgFromServer';
+import { IImageFromServer } from '../modelsImgFromServer';
 
 interface ImageProps {
 	image: IImageFromServer;

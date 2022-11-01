@@ -1,5 +1,5 @@
 import { Image } from './Image';
-import { IImageFromServer } from './modelsImgFromServer';
+import { IImageFromServer } from '../modelsImgFromServer';
 
 interface IContentContainer {
 	page: number;

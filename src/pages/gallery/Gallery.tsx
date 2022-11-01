@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { BtnScroll } from './BtnScroll';
-import { СontentСontainer } from './СontentСontainer';
+import { BtnScroll } from './ComponentsGallery/BtnScroll';
+import { СontentСontainer } from './ComponentsGallery/СontentСontainer';
 import axios, { AxiosError } from 'axios';
 import { IImageFromServer } from './modelsImgFromServer';
 
