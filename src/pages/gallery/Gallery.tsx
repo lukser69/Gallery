@@ -3,6 +3,7 @@ import { BtnScroll } from './ComponentsGallery/BtnScroll';
 import { СontentСontainer } from './ComponentsGallery/СontentСontainer';
 import axios, { AxiosError } from 'axios';
 import { IImageFromServer } from './modelsImgFromServer';
+import './Gallery.css'
 
 export function Gallery() {
 	const [page, setPage] = useState<number>(1);

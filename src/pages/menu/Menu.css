@@ -1,0 +1,28 @@
+.menuContainer {
+  background: rgb(129, 129, 129);
+	height: 700px;
+	width: 1240px;
+	padding: 20px;
+	border-radius: 1%;
+  display: flex;
+}
+
+.cardMenu {
+	background: #555;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cardMenuImage {
+  height: 200px;
+  width: 300px;
+}
+
+.cardMenuName {
+  font-size: 20pt;
+  margin-top: 20px;
+}

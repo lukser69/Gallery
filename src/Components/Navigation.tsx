@@ -9,6 +9,9 @@ export function Navigation() {
 
 			<span>
 				<Link className='link' to='/'>
+					Menu
+				</Link>
+				<Link className='link' to='/gallery'>
 					Gallery
 				</Link>
 				<Link className='link' to='/about'>
