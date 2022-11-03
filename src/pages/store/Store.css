@@ -1,0 +1,77 @@
+.wrapperStore {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	min-height: calc(100vh - 50px);
+	background: #333;
+}
+
+.storeContainer {
+	background: rgb(129, 129, 129);
+	min-height: 700px;
+	width: 1240px;
+	margin: 10px 0;
+	padding: 20px;
+	border-radius: 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.searchStore {
+	width: 70%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.searchStore input::-webkit-input-placeholder {
+	color: #eee;
+}
+
+.searchStore input {
+	width: 95%;
+	height: 30px;
+	padding: 5px;
+	font-size: 16pt;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid black;
+	background: rgb(129, 129, 129);
+}
+
+.searchStore button {
+	width: 5%;
+	height: 30px;
+}
+
+.productsBox {
+	width: 100%;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.productStore {
+	height: 300px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
+	padding: 10px;
+	background: #eee;
+}
+
+.productStoreImg {
+	width: 150px;
+	height: 200px;
+}
+
+.productStorePrice {
+	font-weight: bold;
+}

@@ -14,6 +14,9 @@ export function Navigation() {
 				<Link className='link' to='/gallery'>
 					Gallery
 				</Link>
+				<Link className='link' to='/store'>
+					Store
+				</Link>
 				<Link className='link' to='/about'>
 					About
 				</Link>

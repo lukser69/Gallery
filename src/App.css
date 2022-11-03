@@ -4,6 +4,17 @@
 	box-sizing: border-box;
 }
 
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: calc(100vh - 50px);
+	background: #333;
+}
+
+
 .nav {
 	display: flex;
 	height: 50px;

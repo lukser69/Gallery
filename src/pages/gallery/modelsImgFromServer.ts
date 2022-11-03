@@ -4,5 +4,5 @@ export interface IImageFromServer {
 	width?: number;
 	height?: number;
 	url: string;
-	download_url?: string;
+	download_url: string;
 }
